@@ -31,3 +31,20 @@
                 Length of the string S can be 0 to 10000
                 Character comparisons will be case-sensitive.*/
    #### Solution Link :  [RemoveDuplicate](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/RemoveDuplicate.java)
+4. Take two Strings as Input from the user and return the first occurrence index of Second String in First String, and if Second String is not present in First String return -1.
+
+       example 1. :- 
+                 Input: First String  => "sadbutnothappy"
+                        Second String => "not"
+                 Output: 6 
+       Explanation:
+                 As Second String which is "not" is present at 6th index of First String "sadbutnothappy", So The output is 6.
+
+       example 2. :- 
+                 Input: First String  => "sadbutnothappy"
+                        Second String => "car"
+                 Output: -1 
+       Explanation:
+                         As Second String which is "car" is not present at any index position of First String "sadbutnothappy", So The output is -1.
+
+   #### Solution Link :  [FirstOccurrence](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/FirstOccurrence.java)
