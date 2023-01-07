@@ -12,7 +12,7 @@ public class FirstOccurrence {
         System.out.print("The First Occurrence Index of Second String in First String is :"+res);
     }
 
-    private static int findOccurrence(String s1, Strice ng s2){
+    private static int findOccurrence(String s1, String s2){
         if(s1.length()==s2.length()) {
             return 0;
         }
