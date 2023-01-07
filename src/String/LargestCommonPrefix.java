@@ -54,7 +54,7 @@ public class LargestCommonPrefix {
             strings[i] = scanner.next();
         }
         // Returning the output
-        System.out.println("The Largest common prefix in the given strings is :"+findLargestCommonPrefix(strings)); // "ap"
+        System.out.println("The Largest common prefix in the given strings is :"+findLargestCommonPrefix(strings));
     }
 }
 
