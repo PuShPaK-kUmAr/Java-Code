@@ -27,6 +27,7 @@
         example :- 
                 Input: "Hello World"
                 Output: "Helo Wrd"
+
         Assumptions:
                 Length of the string S can be 0 to 10000
                 Character comparisons will be case-sensitive.*/
@@ -37,13 +38,16 @@
                  Input: First String  => "sadbutnothappy"
                         Second String => "not"
                  Output: 6 
+
        Explanation:
                  As Second String which is "not" is present at 6th index of First String "sadbutnothappy", So The output is 6.
+
 
        example 2. :- 
                  Input: First String  => "sadbutnothappy"
                         Second String => "car"
                  Output: -1 
+
        Explanation:
                  As Second String which is "car" is not present at any index position of First String "sadbutnothappy", So The output is -1.
 
@@ -56,13 +60,16 @@
                         Enter string 2: "geeks"
                         Enter string 3: gee
                  Output: The Largest common prefix in the given strings is :gee
+
        Explanation:
                  As the number of strings is 3 so user need to give 3 strings as Input and the common largest prefix between three string is gee, So the answer will be "gee".
+
 
        example 2. :- 
                  Input: Enter the number of strings as Integer value : 1
                         Enter string 1: "geek" 
                  Output: The Largest common prefix in the given strings is : geek
+
        Explanation:
                    As the number of strings is 1 so user need to give 1 string as Input and the common largest prefix in this case is the String itself, So the answer will be "geek".
 
