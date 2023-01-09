@@ -11,12 +11,12 @@ public class PrimeNumber {
     }
 
     static void checkPrime(int n){
-        int i, m, flag=0;
-        m= (n/2);
+        int i, half, flag=0;
+        half= (n/2);
         if(n==0 || n==1){
             System.out.println(n+" is not a prime number");
         }else{
-            for(i=2;i<=m;i++){
+            for(i=2;i<=half;i++){
                 if(n%i==0){
                     System.out.println(n+" is not a prime number");
                     flag = 1;

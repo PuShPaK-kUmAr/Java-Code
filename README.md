@@ -74,3 +74,12 @@
                    As the number of strings is 1 so user need to give 1 string as Input and the common largest prefix in this case is the String itself, So the answer will be "geek".
 
    #### Solution Link :  [LargestCommonPrefix](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/LargestCommonPrefix.java)
+## (C). Sorting Algorithm
+1. Take array of integer as Input and Sort the array in ascending order using Bubble Sort.
+
+        example :- 
+                Input: Size   5
+                       Array  [32,42,11,2,7]
+
+                Output: [2,7,11,32,42]
+   #### Solution Link :  [BubbleSort](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/SortingAlgorithm/BubbleSort.java)
