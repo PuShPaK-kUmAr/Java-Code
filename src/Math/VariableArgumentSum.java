@@ -8,7 +8,7 @@ public class VariableArgumentSum {
         System.out.println("Enter the number of Integer to be added : ");
         int count = userInput.nextInt();
         int[] number = new int[count];
-        for(int i=0;i<count;i++){
+        for(int i=0;i<count;i++){.  // Why you are using i, j , whynot youare following the naming convention.
             System.out.println("Enter number "+i+1+" :");
             number[i]= userInput.nextInt();
         }
