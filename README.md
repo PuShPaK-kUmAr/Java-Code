@@ -15,6 +15,12 @@
                        Array [1,2,3,4,5]
                 Output: 15
    #### Solution Link :  [VariableArgumentSum](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/VariableArgumentSum.java)
+3. Take Input as an Integer from user and print all the fibonnacci series numbers which are less than given input.
+
+        example :- 
+                Input:  30
+                Output: 0,1,1,2,3,5,8,13,21.
+   #### Solution Link :  [Fibonnacci](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/Fibonnacci.java)
 
 
 ## (B). String
