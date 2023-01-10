@@ -5,21 +5,21 @@ public class FirstOccurrence {
     public static void main(String[] args){
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter First String :");
-        String s1 = userInput.nextLine();
+        String stringOne = userInput.nextLine();
         System.out.println("Enter Second String :");
-        String s2 = userInput.nextLine();
-        int res = findOccurrence(s1,s2);
-        System.out.print("The First Occurrence Index of Second String in First String is :"+res);
+        String stringTwo = userInput.nextLine();
+        int result = findOccurrence(stringOne,stringTwo);
+        System.out.print("The First Occurrence Index of Second String in First String is :"+result);
     }
 
-    private static int findOccurrence(String s1, String s2){
-        if(s1.length()==s2.length()) {
+    private static int findOccurrence(String srtOne, String strTwo){
+        if(srtOne.length()==strTwo.length()) {
             return 0;
         }
-        for(int i=0;i<(s1.length()-s2.length());i++){
-            String k = s1.substring(i,i+s2.length());
-            if(s2.equals(k)){                               // equals is used to compare to strings in java
-                return i;
+        for(int index=0;index<(srtOne.length()-strTwo.length());index++){
+            String stringOccurred = srtOne.substring(index,index+strTwo.length());
+            if(strTwo.equals(stringOccurred)){                               // equals is used to compare to strings in java
+                return index;
             }
         }
         return -1;

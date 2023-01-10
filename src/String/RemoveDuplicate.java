@@ -5,21 +5,21 @@ public class RemoveDuplicate {
     public static void main(String[] args){
         Scanner userInput = new Scanner(System.in);
         System.out.print("Enter the String :");
-        String str = userInput.nextLine();
-        String result = removeDuplicate(str);
+        String inputStr = userInput.nextLine();
+        String result = removeDuplicate(inputStr);
         System.out.print("The result is :"+ result);
 
     }
 
-    public static String removeDuplicate(String s){
-        StringBuilder sb = new StringBuilder();
-        sb.append(s.charAt(0));
-        if(s.length()==0){
+    public static String removeDuplicate(String str){
+        StringBuilder userInput = new StringBuilder();
+        userInput.append(str.charAt(0));
+        if(str.length()==0){
             return null;
         }
-        for(int i=1;i<s.length();i++){
-            if(sb.indexOf(String.valueOf(s.charAt(i))) < 0) sb.append(s.charAt(i));
+        for(int index=1;index<str.length();index++){
+            if(userInput.indexOf(String.valueOf(str.charAt(index))) < 0) userInput.append(str.charAt(index));
         }
-        return sb.toString();
+        return userInput.toString();
     }
 }

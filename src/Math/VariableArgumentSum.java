@@ -8,9 +8,9 @@ public class VariableArgumentSum {
         System.out.println("Enter the number of Integer to be added : ");
         int count = userInput.nextInt();
         int[] number = new int[count];
-        for(int i=0;i<count;i++){
-            System.out.println("Enter number "+i+1+" :");
-            number[i]= userInput.nextInt();
+        for(int index=0;index<count;index++){
+            System.out.println("Enter number "+index+1+" :");
+            number[index]= userInput.nextInt();
         }
         int result = sum(number);
         System.out.print("The sum of all the elements of "+ Arrays.toString(number)+" is : "+result);

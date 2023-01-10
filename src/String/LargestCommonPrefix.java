@@ -19,9 +19,9 @@ public class LargestCommonPrefix {
         // Initialize the largest common prefix to be the first string
         String largestCommonPrefix = strings[0];
 
-        for (int i = 1; i < strings.length; i++) {
+        for (int index = 1; index < strings.length; index++) {
             // Find the common prefix between the largest common prefix and the current string
-            largestCommonPrefix = findCommonPrefix(largestCommonPrefix, strings[i]);
+            largestCommonPrefix = findCommonPrefix(largestCommonPrefix, strings[index]);
 
             // If there is no common prefix, we can return an empty string
             if (largestCommonPrefix.isEmpty()) {
@@ -34,24 +34,24 @@ public class LargestCommonPrefix {
 
     public static String findCommonPrefix(String str1, String str2) {
         int minLength = Math.min(str1.length(), str2.length());
-        for (int i = 0; i < minLength; i++) {
-            if (str1.charAt(i) != str2.charAt(i)) {
-                return str1.substring(0, i);
+        for (int index = 0; index < minLength; index++) {
+            if (str1.charAt(index) != str2.charAt(index)) {
+                return str1.substring(0, index);
             }
         }
         return str1.substring(0, minLength);
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner userInput = new Scanner(System.in);
 
         System.out.print("Enter the number of strings as Integer value : ");
-        int n = scanner.nextInt();
+        int strSize = userInput.nextInt();
 
-        String[] strings = new String[n];
-        for (int i = 0; i < n; i++) {
-            System.out.print("Enter string " + (i+1) + ": ");
-            strings[i] = scanner.next();
+        String[] strings = new String[strSize];
+        for (int initialSize = 0; initialSize < strSize; initialSize++) {
+            System.out.print("Enter string " + (initialSize+1) + ": ");
+            strings[initialSize] = userInput.next();
         }
         // Returning the output
         System.out.println("The Largest common prefix in the given strings is :"+findLargestCommonPrefix(strings));
