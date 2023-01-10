@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 public class BubbleSort {
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         // Read in the array of integers

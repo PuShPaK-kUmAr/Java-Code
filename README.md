@@ -8,6 +8,14 @@
                 Input: 5
                 Output: "This is a Prime Number"
     #### Solution Link :  [PrimeNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/PrimeNumber.java)
+2. Take Input as Array of Integer from user and return the addition of all the elements.
+
+        example :- 
+                Input: Size 5
+                       Array [1,2,3,4,5]
+                Output: 15
+   #### Solution Link :  [VariableArgumentSum](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/VariableArgumentSum.java)
+
 
 ## (B). String
 1. Take Input as String from user and write code to reverse the string.
