@@ -108,3 +108,12 @@
 
                 Output: [7,2,11,42,32]
    #### Solution Link :  [ReverseArray](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/ReverseArray.java)
+
+2. Take array of integer as Input and return the 2nd Largest Element.
+
+        example :- 
+                Input: Size   5
+                       Array  [32,42,11,2,7]
+
+                Output: 32
+   #### Solution Link :  [SecondLargest](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/SecondLargest.java)
