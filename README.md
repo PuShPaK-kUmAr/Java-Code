@@ -117,3 +117,20 @@
 
                 Output: 32
    #### Solution Link :  [SecondLargest](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/SecondLargest.java)
+
+3. Take array of Integer and a Target value as Input and return the Index if Target is present in Array else return "Target Element not found in array".
+
+        example 1.:- 
+                Input: Target 11
+                       Size   5
+                       Array  [32,42,11,2,7]
+
+                Output: Target found at index: 2
+        example 1.:- 
+                Input: Target 11
+                       Size   5
+                       Array  [3,4,1,2,7]
+
+                Output: Target Element not found in array    
+   #### Solution Link :  [BinarySearch](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/BinarySearch.java)
+
