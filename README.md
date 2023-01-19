@@ -134,3 +134,14 @@
                 Output: Target Element not found in array    
    #### Solution Link :  [BinarySearch](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/BinarySearch.java)
 
+4. Take space separated list of items from user and return the Frequency Count of each item.
+
+        example :- 
+                Input: apple orange banana apple banana
+                
+                Output: 
+                       Item 'apple' appears 2 times.
+                       Item 'orange' appears 1 times.
+                       Item 'banana' appears 2 times.
+   #### Solution Link :  [FrequencyCounter](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/FrequencyCounter.java)
+
