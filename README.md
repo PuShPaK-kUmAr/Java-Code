@@ -145,3 +145,10 @@
                        Item 'banana' appears 2 times.
    #### Solution Link :  [FrequencyCounter](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/FrequencyCounter.java)
 
+## (E). Map
+1. Take Input as String and return the count of Vowels and Consonants in that string.
+
+       example :- 
+               Input: "string"
+               Output: {consonantCount=5, vowelCount=1}
+   #### Solution Link :  [VowelConsonantCounter](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Map/VowelConsonantCounter.java)
