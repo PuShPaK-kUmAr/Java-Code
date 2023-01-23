@@ -178,4 +178,4 @@ A simple Java project that manages a list of Employees using Stream API.
 
 ### Contributing
 If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
-   #### Solution Link :  [Stream_API](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Stream_API/main.java)
+   #### Solution Link :  [Stream_API](https://github.com/PuShPaK-kUmAr/Java-Code/tree/master/src/Stream_API)
