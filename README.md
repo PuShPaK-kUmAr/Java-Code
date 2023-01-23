@@ -152,3 +152,30 @@
                Input: "string"
                Output: {consonantCount=5, vowelCount=1}
    #### Solution Link :  [VowelConsonantCounter](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Map/VowelConsonantCounter.java)
+
+## (F). Stream API
+A simple Java project that manages a list of Employees using Stream API.
+
+### Features
+- Add Employees to the list
+- Increase Salary of  Employee from the list
+
+### Technologies
+- Java
+
+### How to use
+1. Clone the repository
+
+       git clone https://github.com/PuShPaK-kUmAr/Java-Code.git
+2. Open the project in your preferred Java IDE
+3. Run the Main class to start the program
+4. Follow the prompts to add, delete, update and print students
+
+### Files
+- `Employee.java`: The class that defines the Employee object, with fields for firstName, lastName, salary, and projects.
+- `CrudEmployee.java`: The class that has methods for increasing salary by a particular percentage and adding new employee to the list.
+- `Main.java` : The class that runs the program and creates the Employee object.
+
+### Contributing
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
+   #### Solution Link :  [Stream_API](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Stream_API/main.java)
