@@ -36,7 +36,8 @@ public class Main {
                                Enter the Value for the operation you want to perform :
                                     1. Increase Salary by Percent
                                     2. Add New Employee
-                                    3. Exit
+                                    3. Delete Employee by FirstName
+                                    4. Exit
                                         
                             """
             );
@@ -55,7 +56,13 @@ public class Main {
                     List<Employee> addedEmployeeList = addedEmployeeStream.toList();
                     addedEmployeeList.forEach(System.out::println);
                 }
-                case 3 -> System.exit(0);
+                case 3 -> {
+                    Stream<Employee> employeeStream = employeeList.stream();
+                    Stream<Employee> deletedEmployeeStream = CrudEmployee.deleteEmployee(employeeStream);
+                    List<Employee> deleteEmployeeList = deletedEmployeeStream.toList();
+                    deleteEmployeeList.forEach(System.out::println);
+                }
+                case 4 -> System.exit(0);
                 default -> System.out.println("Invalid option. Please try again.");
             }
         }

@@ -32,7 +32,22 @@ public class CrudEmployee {
 
             Employee employee = new Employee(firstName, lastName, salary, projects);
             employeeList.add(employee);
-        Stream<Employee> addedEmployeeStream = employeeList.stream();
-        return addedEmployeeStream;
+        return employeeList.stream();
     }
+
+    public static Stream<Employee> deleteEmployee(Stream<Employee> employeeStream){
+            List<Employee> employeeList = employeeStream.collect(Collectors.toList());
+        try {
+            Scanner inputFirstName = new Scanner(System.in);
+            System.out.println("Enter Employee firstName to delete Employee from list : ");
+            String name = inputFirstName.nextLine();
+            employeeList.removeIf(e -> e.getFirstName().equalsIgnoreCase(name));
+            System.out.println("Remaining Employee in the List are : \n");
+            return employeeList.stream();
+        } catch (Exception e){
+            System.out.println("Error : "+ e.getMessage());
+            return employeeList.stream();
+        }
+    }
+
 }

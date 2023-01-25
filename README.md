@@ -166,6 +166,7 @@ A simple Java project that manages a list of Employees using Stream API.
 ### Features
 - Add Employees to the list
 - Increase Salary of  Employee from the list
+- Delete Employee by their First Name from the list
 
 ### Technologies
 - Java
