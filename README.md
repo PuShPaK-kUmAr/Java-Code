@@ -2,12 +2,12 @@
 ## Hello Readers this is a repository for coding problems in java.
 
 ## (A). Math 
- 1. Take Input as Integer from user and check for Prime Number.
+1. Take Input as Integer from user and check for Prime Number.
     
-        example :- 
-                Input: 5
-                Output: "This is a Prime Number"
-    #### Solution Link :  [PrimeNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/PrimeNumber.java)
+       example :- 
+               Input: 5
+               Output: "This is a Prime Number"
+   #### Solution Link :  [PrimeNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/PrimeNumber.java)
 2. Take Input as Array of Integer from user and return the addition of all the elements.
 
         example :- 
@@ -21,6 +21,13 @@
                 Input:  30
                 Output: 0,1,1,2,3,5,8,13,21.
    #### Solution Link :  [Fibonacci](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/Fibonacci.java)
+4. Take Input as Integer from user as Dividend and Divisor and Return the result by dividing Divisor by Dividend.
+
+        example :- 
+                Input: Enter the dividend : 25
+                       Enter the divisor :  5
+                Output: The result is : 5
+   #### Solution Link :  [Divisor](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/Divisor.java)
 
 
 ## (B). String
