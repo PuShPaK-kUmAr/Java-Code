@@ -28,6 +28,12 @@
                        Enter the divisor :  5
                 Output: The result is : 5
    #### Solution Link :  [Divisor](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/Divisor.java)
+1. Take two numbers from user as Input and return the number after swapping without using third variable.
+
+       example :- 
+               Input : num1 = 5 ,  num2 = 6
+               Output: num1 = 6 ,  num2 = 5
+   #### Solution Link :  [SwapTwoNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/SwapTwoNumber.java)
 
 
 ## (B). String
