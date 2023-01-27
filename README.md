@@ -31,7 +31,7 @@
 
 
 ## (B). String
-1. Take Input as String from user and write code to reverse the string.
+1. Take Input as String from user and write code to return the reversed string.
 
         example :- 
                 Input: "hello"
