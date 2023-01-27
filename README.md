@@ -28,7 +28,7 @@
                        Enter the divisor :  5
                 Output: The result is : 5
    #### Solution Link :  [Divisor](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/Divisor.java)
-1. Take two numbers from user as Input and return the number after swapping without using third variable.
+5. Take two numbers from user as Input and return the number after swapping without using third variable.
 
        example :- 
                Input : num1 = 5 ,  num2 = 6
@@ -101,6 +101,16 @@
                    As the number of strings is 1 so user need to give 1 string as Input and the common largest prefix in this case is the String itself, So the answer will be "geek".
 
    #### Solution Link :  [LargestCommonPrefix](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/LargestCommonPrefix.java)
+6. Take Input as String from user and write code to check if the input string is Palindrome or not.
+
+        example 1. :- 
+                 Input:  "palindrome"
+                 Output:  Not a Palindrome
+
+       example 2. :- 
+                 Input:  "level"
+                 Output:  Palindrome  
+   #### Solution Link :  [IsPalindrome](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/IsPalindrome.java)
 
 ## (C). Sorting Algorithm
 1. Take array of integer as Input and Sort the array in ascending order using Bubble Sort.
