@@ -173,6 +173,19 @@
 
        example :- 
                Input: "string"
+               Output: Character frequency:
+                        r: 1
+                        s: 1
+                        t: 1
+                        g: 1
+                        i: 1
+                        n: 1
+
+   #### Solution Link :  [FrequencyCount](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Map/FrequencyCount.java)
+2. Take Input as String and return the Frequency count of characters in that string.
+
+       example :- 
+               Input: "string"
                Output: {consonantCount=5, vowelCount=1}
    #### Solution Link :  [VowelConsonantCounter](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Map/VowelConsonantCounter.java)
 
