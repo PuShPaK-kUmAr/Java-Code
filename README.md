@@ -181,7 +181,7 @@
                         i: 1
                         n: 1
 
-   #### Solution Link :  [FrequencyCount](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Map/FrequencyCount.java)
+   #### Solution Link :  [FrequencyCount](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Map/FrequencyCounter.java)
 2. Take Input as String and return the Frequency count of characters in that string.
 
        example :- 
