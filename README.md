@@ -229,3 +229,22 @@ If you would like to contribute to this project, please fork the repository and 
 
          
    #### Solution Link :  [Pyramid](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Pattern/Pyramid.java)
+
+1.  Write the java code to print the Right and Left Triangle Star by taking the height by the user.
+
+           Example :-
+                     Input  : 5
+                     Output : 
+                                Right Triangled Star :   * 
+                                                         * *
+                                                         * * * 
+                                                         * * * * 
+                                                         * * * * *
+                                
+                                Left Triangled Star  :           * 
+                                                               * * 
+                                                             * * * 
+                                                           * * * * 
+                                                         * * * * * 
+
+#### Solution Link :  [RightAndLeftTriangleStar](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Pattern/RightAndLeftTriangleStar.java)
