@@ -26,7 +26,6 @@ public class ReverseString {
             }
             catch(Exception error){
                 System.out.println("Error : "+error.getMessage());
-
             }
             return str;
         }
