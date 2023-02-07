@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ArmstrongNumber {
     public static void main(String[] args) {
-        int sumOfCube=0,a,temp;
+        int sumOfCube=0,lastDigit,temp;
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter the number to check if it is Armstrong number : ");
         try {
@@ -13,9 +13,9 @@ public class ArmstrongNumber {
 
             temp=number;
             while(number>0) {
-                a=number%10; //Getting last digit
+                lastDigit = number%10; //Getting last digit
                 number=number/10;  //Removing last digit from number
-                sumOfCube=sumOfCube+(a*a*a); //Calculating sum of cubes of digits
+                sumOfCube=sumOfCube+(lastDigit*lastDigit*lastDigit); //Calculating sum of cubes of digits
             }
             if(temp==sumOfCube) {
                 System.out.println(temp+ " is an armstrong number");
