@@ -35,6 +35,16 @@
                Output: num1 = 6 ,  num2 = 5
    #### Solution Link :  [SwapTwoNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/SwapTwoNumber.java)
 
+6. Take any number from user as Input and return the if the number is  Armstrong Number or Not.
+
+       example 1. :- 
+               Input : 153
+               Output: 153 is Armstrong Number.
+       example 1. :- 
+               Input : 142
+               Output: 142 is Not a Armstrong Number
+
+#### Solution Link :  [ArmstrongNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/ArmstrongNumber.java)
 
 ## (B). String
 1. Take Input as String from user and write code to return the reversed string.
