@@ -178,6 +178,22 @@
                        Item 'banana' appears 2 times.
    #### Solution Link :  [FrequencyCounter](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/FrequencyCounter.java)
 
+5. Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+
+       Example 1:
+               Input: nums = [2,7,11,15], target = 9
+               Output: [0,1]
+       Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+       
+       Example 2:
+               Input: nums = [3,2,4], target = 6
+               Output: [1,2]
+
+       Example 3:
+               Input: nums = [3,3], target = 6
+               Output: [0,1]
+   #### Solution Link :  [TwoSum](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Array/TwoSum.java)
+
 ## (E). Map
 1. Take Input as String and return the count of Vowels and Consonants in that string.
 
