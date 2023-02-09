@@ -132,6 +132,8 @@
                  Input: s = "MCMXCIV"
                  Output: 1994
        Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+#### Solution Link :  [RomanToInteger](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/RomanToInteger.java)
+
 
 ## (C). Sorting Algorithm
 1. Take array of integer as Input and Sort the array in ascending order using Bubble Sort.
