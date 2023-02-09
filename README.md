@@ -121,6 +121,17 @@
                  Input:  "level"
                  Output:  Palindrome  
    #### Solution Link :  [IsPalindrome](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/IsPalindrome.java)
+7. Take Input from user as String of Roman Numbers and convert them to integer, If user provide incorrect string send suitable message and if roman number is in lowercase convert them to uppercase.
+       
+       example 1. :-
+                 Input: s = "III"
+                 Output: 3
+       Explanation: III = 3
+
+       example 2. :- 
+                 Input: s = "MCMXCIV"
+                 Output: 1994
+       Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 ## (C). Sorting Algorithm
 1. Take array of integer as Input and Sort the array in ascending order using Bubble Sort.
