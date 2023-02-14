@@ -45,6 +45,16 @@
                Output: 142 is Not a Armstrong Number
 
 #### Solution Link :  [ArmstrongNumber](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/ArmstrongNumber.java)
+7. Take any number from user as Input and return reversed integer for the same.
+
+       example 1. :- 
+               Input : 153
+               Output: 351
+       example 1. :- 
+               Input : -142
+               Output: -241
+
+#### Solution Link :  [ReverseInteger](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/Math/ReverseInteger.java)
 
 ## (B). String
 1. Take Input as String from user and write code to return the reversed string.
