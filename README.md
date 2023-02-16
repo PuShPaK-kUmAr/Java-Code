@@ -143,6 +143,16 @@
                  Output: 1994
        Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 #### Solution Link :  [RomanToInteger](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/RomanToInteger.java)
+8. Take n as pairs of parentheses from user, write a function to generate all combinations of well-formed parentheses using n pair of parenthesis.
+   
+       Example 1:
+                  Input: n = 3
+                  Output: ["((()))","(()())","(())()","()(())","()()()"]
+
+       Example 2:
+                  Input: n = 1
+                  Output: ["()"]
+#### Solution Link :  [GenerateParenthesis](https://github.com/PuShPaK-kUmAr/Java-Code/blob/master/src/String/GenerateParenthesis.java)
 
 
 ## (C). Sorting Algorithm
