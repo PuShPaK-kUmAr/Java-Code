@@ -20,6 +20,7 @@ public class ArmstrongNumber {
             if(temp==sumOfCube) {
                 System.out.println(temp+ " is an armstrong number");
             } else {
+
                 System.out.println(temp+ "is not an armstrong number");
             }
         } catch (InputMismatchException error) {
