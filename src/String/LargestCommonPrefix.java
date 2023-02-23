@@ -43,18 +43,24 @@ public class LargestCommonPrefix {
     }
 
     public static void main(String[] args) {
-        Scanner userInput = new Scanner(System.in);
 
-        System.out.print("Enter the number of strings as Integer value : ");
-        int strSize = userInput.nextInt();
+        try (Scanner userInput = new Scanner(System.in)) {
+            System.out.print("Enter the number of strings as Integer value : ");
+            int strSize = userInput.nextInt();
 
-        String[] strings = new String[strSize];
-        for (int initialSize = 0; initialSize < strSize; initialSize++) {
-            System.out.print("Enter string " + (initialSize+1) + ": ");
-            strings[initialSize] = userInput.next();
+            String[] strings = new String[strSize];
+
+            for (int initialSize = 0; initialSize < strSize; initialSize++) {
+                System.out.print("Enter string " + (initialSize + 1) + ": ");
+                strings[initialSize] = userInput.next();
+            }
+            // Returning the output
+            System.out.println("The Largest common prefix in the given strings is :" + findLargestCommonPrefix(strings));
+        } catch (Exception e) {
+            System.out.println("An error occurred: " + e.getMessage());
+            e.printStackTrace();
         }
-        // Returning the output
-        System.out.println("The Largest common prefix in the given strings is :"+findLargestCommonPrefix(strings));
+        // Close the scanner to avoid resource leaks
     }
 }
 
